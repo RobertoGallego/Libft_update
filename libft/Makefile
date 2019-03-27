@@ -6,7 +6,7 @@
 #    By: groberto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/18 12:29:22 by groberto          #+#    #+#              #
-#    Updated: 2019/03/18 12:33:58 by groberto         ###   ########.fr        #
+#    Updated: 2019/03/21 16:32:31 by groberto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -87,6 +87,7 @@ SRC_NAME  = ft_atoi.c \
                   ft_swap.c \
 				  ft_free_splited_str.c \
                   get_next_line.c \
+				  ft_dabs.c \
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 

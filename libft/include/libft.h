@@ -6,7 +6,7 @@
 /*   By: groberto <groberto@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/19 12:42:55 by groberto          #+#    #+#             */
-/*   Updated: 2019/02/25 13:10:20 by groberto         ###   ########.fr       */
+/*   Updated: 2019/03/21 16:35:44 by groberto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,5 +96,6 @@ char				*ft_strtoupper(char *str);
 void				ft_swap(int *a, int *b);
 void				ft_free_splited_str(char **str);
 int					get_next_line(const int fd, char **line);
+double				ft_dabs(double x);
 
 #endif
